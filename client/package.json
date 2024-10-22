@@ -1,0 +1,28 @@
+{
+  "name": "ifc-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@thatopen/components": "^2.3.11",
+    "@thatopen/components-front": "^2.3.7",
+    "core-js": "^3.8.3",
+    "element-plus": "^2.8.6",
+    "register-service-worker": "^1.7.2",
+    "vue": "^3.2.13",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-class-static-block": "^7.25.8",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-pwa": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "unplugin-auto-import": "^0.18.3",
+    "unplugin-vue-components": "^0.27.4"
+  }
+}
