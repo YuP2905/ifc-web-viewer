@@ -7,19 +7,6 @@ module.exports = defineConfig({
   transpileDependencies: true,
   devServer: {
     port: 8082,
-    // proxy: {
-    //   "/api" : {
-    //     target: "https://api.vworld.kr",
-    //     changeOrigin: true,
-    //     pathRewrite: { "^/api": "" }
-    //   },
-      
-    //   "/map": {
-    //     target: "http://map2.daum.net",
-    //     changeOrigin: true,
-    //     pathRewrite: { "^/map": "/map/imageservice" }
-    //   }
-    // }
   },
 
   configureWebpack: {
