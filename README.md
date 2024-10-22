@@ -87,9 +87,6 @@ This project uses components developed by [engine_components](https://github.com
 
 Feel free to submit a Pull Request or report issues. Your contributions are appreciated!
 
-## License
-
-This project is licensed under the MIT License.
 
 ---
 
