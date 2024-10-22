@@ -36,7 +36,7 @@ my_project/
 
 1. Activate the virtual environment:
    ```sh
-   conda activate BIM_Web
+   conda activate <your_environment_name>
    ```
 
 2. Install dependencies:
@@ -58,7 +58,7 @@ my_project/
    ```sh
    start cmd /k "cd client && npm run serve"
    cd backend
-   call conda activate BIM_Web
+   call conda activate <your_environment_name>
    python backendServe.py
    ```
 
@@ -132,7 +132,7 @@ my_project/
 
 1. 激活虚拟环境：
    ```sh
-   conda activate BIM_Web
+   conda activate <your_environment_name>
    ```
 
 2. 安装依赖：
