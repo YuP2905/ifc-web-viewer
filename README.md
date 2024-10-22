@@ -151,7 +151,7 @@ my_project/
    ```sh
    start cmd /k "cd client && npm run serve"
    cd backend
-   call conda activate BIM_Web
+   call conda activate <your_environment_name>
    python backendServe.py
    ```
 
