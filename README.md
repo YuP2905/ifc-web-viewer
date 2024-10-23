@@ -81,7 +81,7 @@ my_project/
 
 ## Acknowledgments
 
-This project uses components developed by [engine_components](https://github.com/ThatOpen/engine_components). We would like to thank the developers for their contributions.
+This project uses components developed by [engine_components](https://github.com/ThatOpen/engine_components), and uses library developed by [ifcopenshell](https://github.com/IfcOpenShell/IfcOpenShell) I would like to thank the developers for their contributions.
 
 ## Contribution
 
