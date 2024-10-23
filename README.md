@@ -81,7 +81,7 @@ my_project/
 
 ## Acknowledgments
 
-This project uses components developed by [engine_components](https://github.com/ThatOpen/engine_components), and uses library developed by [ifcopenshell](https://github.com/IfcOpenShell/IfcOpenShell) I would like to thank the developers for their contributions.
+This project uses components developed by [engine_components](https://github.com/ThatOpen/engine_components), and libraries developed by [ifcopenshell](https://github.com/IfcOpenShell/IfcOpenShell) I would like to thank the developers for their contributions.
 
 ## Contribution
 
@@ -174,7 +174,7 @@ my_project/
 
 ## 鸣谢
 
-本项目使用了 [engine_components](https://github.com/ThatOpen/engine_components) 开发的组件，感谢开发者们的贡献。
+本项目使用了 [engine_components](https://github.com/ThatOpen/engine_components) 开发的组件和 [ifcopenshell](https://github.com/IfcOpenShell/IfcOpenShell) 开发的库，感谢开发者们的贡献。
 
 ## 贡献
 
