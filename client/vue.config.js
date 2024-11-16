@@ -8,18 +8,11 @@ module.exports = defineConfig({
   devServer: {
     port: 8082,
     // proxy: {
-    //   "/api" : {
-    //     target: "https://api.vworld.kr",
+    //   '/uploads': {
+    //     target: 'http://192.168.0.59:5000',
     //     changeOrigin: true,
-    //     pathRewrite: { "^/api": "" }
     //   },
-      
-    //   "/map": {
-    //     target: "http://map2.daum.net",
-    //     changeOrigin: true,
-    //     pathRewrite: { "^/map": "/map/imageservice" }
     //   }
-    // }
   },
 
   configureWebpack: {
@@ -45,22 +38,3 @@ module.exports = defineConfig({
   }
   
 });
-
-// import { defineConfig } from "@vue/cli-service";
-// import AutoImport from 'unplugin-auto-import/vite'
-// import Components from 'unplugin-vue-components/vite'
-// import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
-
-// export default defineConfig({
-//   transpileDependencies: true,
-//   configureWebpack: {
-//     plugins: [
-//       AutoImport({
-//         resolvers: [ElementPlusResolver()],
-//       }),
-//       Components({
-//         resolvers: [ElementPlusResolver()],
-//       })
-//     ]
-//   }
-// })

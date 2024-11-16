@@ -22,7 +22,7 @@ CORS(app, resources={
 
 
 # 上传文件夹路径/路由路径
-UPLOAD_FOLDER = "/uploads"
+UPLOAD_FOLDER = "./uploads"
 ifc_file_path = None
 ifc_model = None
 
@@ -70,7 +70,7 @@ def uploaded_file(filename):
     return send_from_directory(UPLOAD_FOLDER, filename)
 
 # 根据类别查找 IFC 元素
-@app.route("/find-ifc-elements", methods=['POST'])
+@app.route("/find-ifc-elements", methods=["POST"])
 def find_ifc_elements():
     global ifc_model
 
