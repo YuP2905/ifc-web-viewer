@@ -1,3 +1,7 @@
+# Video
+<video id="video" controls="" preload="none" poster="" src="./video/video.mp4"></video>
+
+
 # Project Name: ifc-web-viewer
 
 ifc-web-viewer is a full-stack project based on Vue.js and Flask. The front end is built with Vue.js, while the back end uses Flask to provide API services. This application allows users to upload, view, and interact with IFC files. It supports features such as grid display, background toggle, element highlighting, and camera control.
